@@ -3,6 +3,7 @@
     return val * val;
 }
 
-Console.WriteLine(calculCarre(4));
-Console.WriteLine(calculCarre(-3));
-Console.WriteLine(calculCarre(12));
+Console.WriteLine("Entrez un entier");
+string str = Console.ReadLine();
+int val = Convert.ToInt32(str);
+Console.WriteLine(calculCarre(val));
